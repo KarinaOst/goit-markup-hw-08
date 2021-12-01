@@ -87,6 +87,7 @@
 
   &.first {
     font-size: 40px;
+    color: $accentcolor;
   }
 }
 
@@ -128,7 +129,7 @@
   font-weight: 500;
   line-height: 1.22;
   letter-spacing: 0.02em;
-  color: $adresscolor;
+  color: $accentcolor;
 
   &:hover,
   &:focus {

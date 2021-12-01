@@ -171,6 +171,9 @@
 .soc-link-foot:focus .soc-icon {
   fill: $backgroundcolor;
 }
+.soc-item-foot:not(:last-child) {
+    margin-right: 10px;
+}
 
 .footer-form-sect {
   font-size: 0;

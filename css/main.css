@@ -396,6 +396,7 @@ p {
 
 .mobile-menu__contact-link.first {
   font-size: 40px;
+  color: #2196f3;
 }
 
 .mobile-menu__contact-link:hover,
@@ -437,7 +438,7 @@ p {
   font-weight: 500;
   line-height: 1.22;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: #2196f3;
 }
 
 .mobile-menu__social-list-item-link:hover, .mobile-menu__social-list-item-link:focus {
@@ -1071,6 +1072,10 @@ p {
 .soc-link-foot:hover .soc-icon,
 .soc-link-foot:focus .soc-icon {
   fill: #ffffff;
+}
+
+.soc-item-foot:not(:last-child) {
+  margin-right: 10px;
 }
 
 .footer-form-sect {
